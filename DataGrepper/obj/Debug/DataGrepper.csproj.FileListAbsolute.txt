@@ -1,0 +1,14 @@
+C:\Users\Benj\source\repos\DataGrepper\DataGrepper\bin\Debug\DataGrepper.exe.config
+C:\Users\Benj\source\repos\DataGrepper\DataGrepper\bin\Debug\DataGrepper.exe
+C:\Users\Benj\source\repos\DataGrepper\DataGrepper\bin\Debug\DataGrepper.pdb
+C:\Users\Benj\source\repos\DataGrepper\DataGrepper\obj\Debug\DataGrepper.csprojResolveAssemblyReference.cache
+C:\Users\Benj\source\repos\DataGrepper\DataGrepper\obj\Debug\DataGrepper.csproj.CoreCompileInputs.cache
+C:\Users\Benj\source\repos\DataGrepper\DataGrepper\obj\Debug\DataGrepper.exe
+C:\Users\Benj\source\repos\DataGrepper\DataGrepper\obj\Debug\DataGrepper.pdb
+C:\git\DataGrepper\DataGrepper\DataGrepper\bin\Debug\DataGrepper.exe.config
+C:\git\DataGrepper\DataGrepper\DataGrepper\bin\Debug\DataGrepper.exe
+C:\git\DataGrepper\DataGrepper\DataGrepper\bin\Debug\DataGrepper.pdb
+C:\git\DataGrepper\DataGrepper\DataGrepper\obj\Debug\DataGrepper.csprojResolveAssemblyReference.cache
+C:\git\DataGrepper\DataGrepper\DataGrepper\obj\Debug\DataGrepper.csproj.CoreCompileInputs.cache
+C:\git\DataGrepper\DataGrepper\DataGrepper\obj\Debug\DataGrepper.exe
+C:\git\DataGrepper\DataGrepper\DataGrepper\obj\Debug\DataGrepper.pdb
