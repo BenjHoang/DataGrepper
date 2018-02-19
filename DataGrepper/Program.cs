@@ -19,7 +19,8 @@ namespace DataGrepper
             const string Emailpattern = @"\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*";
             const string PhonePattern = @"\d{3}?\W\d{3}?\W\d{4}?";
 
-            foreach (string lineInt in File.ReadLines("C:/Users/Benj/Desktop/usb256.001"))
+            Console.WriteLine("Loading Data...");
+            foreach (string lineInt in File.ReadLines("usb256.001"))
             {
                 Match m = Regex.Match(lineInt, Emailpattern, RegexOptions.IgnoreCase);
                 if (m.ToString() != "")
@@ -33,12 +34,28 @@ namespace DataGrepper
                 Match k = Regex.Match(lineInt, PhonePattern, RegexOptions.IgnoreCase);
                 if (k.ToString() != "")
                 {
+                    //Console.WriteLine(k);
                     phones.Add(k.ToString());
                 }
             }
-            Console.WriteLine("removing duplicated");
+            Console.WriteLine("removing duplicated emails");
             List<string> NoDup_emails = emails.Distinct().ToList();
+
+            foreach (string a in NoDup_emails)
+            {
+                Console.WriteLine(a);
+            }
+            Console.WriteLine("Total Unique items: "+NoDup_emails.Count());
+
+            Console.WriteLine("removing duplicated phones");
             List<string> NoDup_phones = phones.Distinct().ToList();
+            foreach (string a in NoDup_phones)
+            {
+                Console.WriteLine(a);
+            }
+            Console.WriteLine("Total Unique Items: " + NoDup_phones.Count());
+
+
             Console.WriteLine("writing to txt files");
             System.IO.File.WriteAllLines("emails.txt", NoDup_emails);
             System.IO.File.WriteAllLines("phones.txt", NoDup_phones);
